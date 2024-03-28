@@ -1,0 +1,129 @@
+* {
+  border: 1px solid red;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Header and title styling */
+.header,
+.title,
+.footer {
+  background-color: #1f2937;
+  display: flex;
+}
+
+.header,
+.footer {
+  min-height: 50px;
+  flex-shrink: 0;
+}
+
+.header {
+  justify-content: space-around;
+  padding: 8px 8px;
+  align-items: center;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+
+.header .name {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 700;
+}
+
+.header .headerlinks {
+  display: flex;
+  gap: 16px;
+}
+
+.header .headerlinks,
+.title .titlecontainer {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #e5e7eb;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Title Section styling */
+
+.title {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.title .titlecontainer .intro {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  padding: 8px 24px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+/* Information section styling */
+
+.information {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.infotitle {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+/* Quote section styling */
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.quotetext {
+  font-size: 36px;
+  font-style: italic;
+}
+
+/* Call to Action section styling */
+
+.coa {
+  background-color: white;
+  display: flex;
+  flex: 1;
+}
+
+/* Footer styling */
+.footer {
+  color: white;
+}
